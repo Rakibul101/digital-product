@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    background-color: rgb(109, 87, 87);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.logo{
+    width: 150px;
+}
+.list{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+}
+.list>li{
+    padding-right: 30px;
+    cursor: pointer;
+}
+.list>li:hover{
+ color:blue;
+}
+/* banner section design */
+.banner-container{
+    background-image: url("../images/background.png"), linear-gradient(45deg, #282525, #1f1c1c);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.heading{
+    font-size:50px;
+    font-weight: 700;
+}
+.text{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 15px;
+    background-color: rgb(206, 76, 76);
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blue;
+}
+.banner-text{
+    color: white;
+}
+.photo{
+    width: 300px;
+}
+.about-heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+.head{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* about-text{
+    width: 80%;
+} */
+.front-end{
+    width: 250px;
+    height: 380px;
+    border-radius: 8px;
+    background-color: #1f1c1c;
+    text-align: center;
+}
+.icon-0{
+    width:70px;
+    padding: 15px 10px;
+}
+.dev{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+}
+.text1{
+    padding: 10px 5px;
+    color: white;
+}
+.btn1{
+    background-color: gray;
+}
+.service{
+    color: white;
+    padding: 30px;
+}
+.section-main{
+    height: 600px;
+    background-image: url(../images/background.png),linear-gradient(45deg, #393131, #201b1b);
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-container{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-text{
+    color: white;
+}
+.footer-heading{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-info{
+    color: white;
+    margin-top: 20px;
+    list-style: none;
+}
+.footer-info li{
+    padding: 5px;
+}
+.copy{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
